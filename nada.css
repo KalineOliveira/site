@@ -1,0 +1,43 @@
+
+body{
+    background-color: #976aff;
+}
+
+.row > div{
+    border: solid 2px #976aff;
+    margin-top: 5px;
+}
+*{
+    margin: 0px center !important;
+    box-sizing: border-box !important;
+    padding: 0px !important;
+}
+
+.carousel-item > img{
+    height: 90vh;
+}
+
+.carousel-caption > h5,p {
+    color: purple;
+}
+
+.row > div[class*="col"]{
+    border: solid 2px #976aff;
+    text-align: center;
+}
+
+.col{
+
+    overflow: hidden;
+    }
+    .zoom {
+    max-width: 100%;
+    transition: all 0.3s;
+    }
+    .zoom:hover {
+      transform: scale(1.1);
+    }
+
+footer{
+    background-color: #976aff;
+}
